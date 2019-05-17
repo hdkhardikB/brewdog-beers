@@ -1,0 +1,20 @@
+
+{
+    "compilerOptions": {
+      "outDir": "./dist/",
+      "sourceMap": true,
+      "noImplicitAny": true,
+      "module": "commonjs",
+      "jsx": "react",
+      "allowJs": true,
+      "moduleResolution": "node",
+      "strict": true,
+      "baseUrl": ".",
+      "target": "es5"
+    },
+    "lib": ["DOM", "es6"],
+    "include": [
+      "./src/**/*"
+    ],
+    "exclude": ["./src/**/*.test.*"],
+  }

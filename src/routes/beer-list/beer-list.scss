@@ -1,0 +1,24 @@
+@import './../../scss/app.scss';
+
+.col-md-3{
+    
+    img{
+        height: 280px; 
+        width: 50%; 
+        display: block;
+        margin: 20px auto 0;
+    }
+    .abv{
+        position: absolute;
+        top:0;
+        color:red;
+        background-color: skyblue;
+        right: 0;
+    }
+    .card-text{
+        font-size: 1rem;
+        white-space: nowrap; 
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
